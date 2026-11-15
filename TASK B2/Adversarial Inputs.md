@@ -1,4 +1,29 @@
-What Each Adversarial Input Reveals
+Create a file named damaged.txt.
+
+Input:
+
+P1001,192311001,Arun,12,4500.0
+
+P1002,DAMAGED LINE
+
+P1003,192311003,Divya,7,ABC
+
+P1004,192311004,Ravi,5,3200.0
+
+
+Explanation:
+
+- P1001 is a valid record.
+
+- P1002 has an incorrect number of fields.
+
+- P1003 contains a non-numeric amount.
+
+- P1004 is a valid record.
+
+- The final empty line should be ignored.
+
+ What Each Adversarial Input Reveals
 
 - SQL injection input reveals that directly concatenating user input can change query logic.
 
